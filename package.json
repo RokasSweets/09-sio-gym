@@ -1,0 +1,24 @@
+{
+  "name": "09-sio-gym",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server --port=4109 --host=localhost",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RokasSweets/09-sio-gym.git"
+  },
+  "keywords": [],
+  "author": "RokasSweets",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RokasSweets/09-sio-gym/issues"
+  },
+  "homepage": "https://github.com/RokasSweets/09-sio-gym#readme",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
