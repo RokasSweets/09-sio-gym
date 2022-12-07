@@ -1,0 +1,66 @@
+root {
+    --main-color: #0842da;
+}
+
+body {
+    font-family: tahoma;
+    width: 1000px;
+    margin-left: calc(50% - 500px);
+}
+
+.logo {
+    float: left;
+    height: 35px;
+    margin-left: -20px;
+}
+
+.main-header {
+    display: inline-block;
+    margin-top: 25px;
+    width: 1000px;
+}
+
+.main-header > nav > a {
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    margin-left: 1em;
+    padding: 20px;
+    display: inline-block;
+    line-height: 0.1em;
+    transition: all 0.5s;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.main-nav {
+    float: right;
+    margin-top: -3px;
+}
+
+.main-nav > a:last-child {
+    margin-left: 140px;
+    background-color: #0842da;
+    color: white;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.main-nav > a:last-child:hover {
+    background-color: var(--secondary-color);
+    color: black;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+.main-nav > a:hover {
+    background-color: var(--main-color);
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #0842da;
+    cursor: pointer;
+}
