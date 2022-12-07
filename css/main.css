@@ -64,3 +64,36 @@ body {
     border: 2px solid #0842da;
     cursor: pointer;
 }
+
+.left-content,
+.right-content {
+    margin-top: 25px;
+    display: inline-block;
+    width: 49%;
+    height: 600px;
+    background-color: aqua;
+}
+
+.bottom-content {
+    margin-top: 15px;
+    width: 98.5%;
+    height: 250px;
+    background-color: #f0f2f4;
+    border-radius: 25px;
+}
+
+.bottom-cube {
+    display: inline-block;
+    width: 20%;
+    height: 220px;
+    margin-left: 37px;
+    margin-top: 15px;
+    background-color: #f0f2f4;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+.bottom-cube:hover {
+    background-color: #fff;
+    box-shadow: 0px 6px 30px #ccc;
+}
