@@ -73,6 +73,10 @@ body {
     height: 550px;
 }
 
+.right-content {
+    margin-right: 20px;
+}
+
 .left-content > h1 {
     font-size: 65px;
 }
@@ -85,7 +89,8 @@ body {
 }
 
 .left-content > p {
-    font-size: 20px;
+    font-size: 18px;
+    line-height: 1.5em;
     opacity: 0.85;
     margin-bottom: 40px;
 }
@@ -116,7 +121,7 @@ body {
 .bottom-content {
     margin-top: 615px;
     width: 98.5%;
-    height: 250px;
+    height: 220px;
     background-color: #f0f2f4;
     border-radius: 25px;
 }
@@ -124,15 +129,56 @@ body {
 .bottom-cube {
     display: inline-block;
     width: 20%;
-    height: 220px;
+    height: 190px;
     margin-left: 37px;
     margin-top: 15px;
     background-color: #f0f2f4;
-    border-radius: 15px;
+    border-radius: 10px;
     transition: all 0.5s;
 }
 
 .bottom-cube:hover {
     background-color: #fff;
     box-shadow: 0px 6px 30px #ccc;
+
+}
+
+.bottom-cube > div {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.bottom-cube  h1 {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.bottom-cube  p {
+    opacity: 0.85;
+    font-size: 15px;
+}
+
+p > span {
+    background-color: #51b267; 
+    padding: 5px; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    border-radius: 20px; 
+    color: white;
+}
+
+.pro-button {
+    text-decoration: none;
+    background-color: #fff;
+    color: black;
+    font-weight: 900;
+    padding: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+.bottom-cube:hover .pro-button {
+    background-color: #f0f2f4;
 }
